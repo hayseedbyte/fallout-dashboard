@@ -1,0 +1,54 @@
+* {
+  background-image: none;
+}
+
+.ui-sortable {
+  max-width: 60vw;
+}
+
+.item-container svg {
+  color: #33ff66;
+}
+.item {
+  background-image: none;
+  border: 0.2rem solid #33ff66;
+  color: #33ff66;
+}
+
+.item-container {
+  background-image: none;
+  color: #33ff66;
+}
+
+.ui-sortable-handle {
+  background-image: none;
+}
+
+.item a svg {
+  display: none;
+  position: ;
+}
+.item:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 1em #fcff33;
+}
+
+.item:hover {
+  box-shadow: 0 0 1em #33ff66;
+  text-shadow: 0 0 1em #33ff66;
+  border: 0.2rem solid #33ff66;
+  color: #fcff33;
+  transform: scale(1.1);
+}
+.item:after {
+  content: none;
+}
+
+.title.white {
+  display: none;
+}
+.green {
+  color: #33ff66;
+  font-family: 'VT323', monospace;
+  font-size: 1.5em;
+}
