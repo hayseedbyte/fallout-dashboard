@@ -26,18 +26,16 @@
 
 .item a svg {
   display: none;
-  position: ;
 }
 .item:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 1em #fcff33;
+  box-shadow: 0 0 1em #33ff66;
 }
 
 .item:hover {
   box-shadow: 0 0 1em #33ff66;
-  text-shadow: 0 0 1em #33ff66;
   border: 0.2rem solid #33ff66;
-  color: #fcff33;
+  color: #33ff66;
   transform: scale(1.1);
 }
 .item:after {
